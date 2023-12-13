@@ -1,0 +1,29 @@
+body{
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: 0% auto 0px auto;
+
+}
+
+div {
+  background-color: #fffafa;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  padding-left: 50px;
+}
+
+.date {
+  padding-top: 30px;
+  padding-left: 50px;
+  font-family: 'Roboto';
+  color: #008080;
+}
+
+.post-content {
+  font-family: 'Open Sans';
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+

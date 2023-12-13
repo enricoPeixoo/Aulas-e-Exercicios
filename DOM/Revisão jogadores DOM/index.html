@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revisão Jogadores</title>
+  <script src="./index.js"></script>
+</head>
+
+<body>
+  <h1>Escalação de Jogadores</h1>
+
+  <h1>Escalar Jogador: </h1>
+  <form>
+    <label for="position">Posição: </label>
+    <input type="text" name="position" id="position">
+    <br>
+    <label for="name">Nome: </label>
+    <input type="text" name="name" id="name">
+    <br>
+    <label for="number">Camisa: </label>
+    <input type="text" name="number" id="number">
+  </form>
+  <button onclick="addPlayer()">Escalar</button>
+  <br>
+  <h1>Remover jogador: </h1>
+  <form>
+    <label for="removeNumber">Número da camisa: </label>
+    <input type="text" name="removeNumber" id="removeNumber">
+  </form>
+  <button onclick="removePlayer()">Remover</button>
+  <h2>Time:</h2>
+  <ul id="players-list">
+  </ul>
+
+</body>
+
+</html>
